@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    /* Cores no geral */
+    --black: #0D114F;
+    --white: #FAFAFA;
+    --red: #E83F5B;
+    --light-blue: #E0ECFF;
+    --blue: #3485FF;
+    --background: #FBFCFF;
+    --overlay: #040911;
+    --icons-details: #A5B0C1;
+
+    /* Tons de cinza */
+    --grey-black: #4D5E77;
+    --grey-blue: #A1B2CD;
+    --grey-mediun: #D3D9E2;
+    --grey-light: #E5EAF1;
+
+    /* Cores para alteração nos botões */
+    --blue-hover: #5699FF;
+    --red-hover: #EA4B65;
+    --grey-hover: #8794A7;
+}
+
+body{
+    background-color: var(--background);
+    height: 100vh;
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
