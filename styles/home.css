@@ -10,6 +10,8 @@ body{
 
 header{
     grid-area: header;
+    margin-left: 8rem;
+    margin-top: 2rem;
 }
 
 #bg{
@@ -31,6 +33,7 @@ main{
     align-items: center;
     padding: 1rem;
     text-align: center;
+    width: 50%;
 }
 
 section input{
@@ -40,10 +43,9 @@ section input{
     font-family: 'Open Sans', sans-serif;
 }
 
-main{
-    width: 50%;
+#room-id{
+    margin-bottom: 1rem;
 }
-
 
 section form > button{
     background-color: var(--blue);

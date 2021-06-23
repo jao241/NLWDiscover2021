@@ -51,6 +51,7 @@ body{
 h2, button{
     font-family: Poppins, sans-serif;
     margin-bottom: 1rem; 
+    color: var(--black);
 }
 
 .formatacao_botao{
