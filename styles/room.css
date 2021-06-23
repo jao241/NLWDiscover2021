@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#botao_branco{
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+#botao_azul{
+    background-color: var(--blue);
+    color: var(--white);
+}

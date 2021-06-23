@@ -52,16 +52,12 @@ section form > button{
     color: var(--white);
 }
 
-section form > button img, section div button img{
-    padding-right: 2px;
-}
-
 section div button{
     background-color: var(--white);
     border: 2px solid var(--blue);
 }
 
-section div button p{
+section div button a{
     color: var(--blue);
 }
 

@@ -43,6 +43,9 @@ header{
     margin-top: 2rem;
 }
 
+a{
+    text-decoration: none;
+}
 .sr-only{
     position: absolute;
     height: 1px;
@@ -70,4 +73,8 @@ h2, button{
     margin: 5px auto;
     border-radius: 8px;
     cursor:pointer;
+}
+
+.formatacao_botao img{
+    padding: 0 2px;
 }
