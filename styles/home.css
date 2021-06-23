@@ -15,6 +15,10 @@ header{
 #bg{
     grid-area: left;
     background: url('../assets/Ilustração.svg') no-repeat top/contain;
+    position: relative;
+    width: 756.64px;
+    left: -90px;
+    top: -4rem;
 }
 
 main{
@@ -33,5 +37,38 @@ section input{
     padding: .8rem;
     border:2px solid var(--grey-blue);
     border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
 }
 
+main{
+    width: 50%;
+}
+
+
+section form > button{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+section form > button img, section div button img{
+    padding-right: 2px;
+}
+
+section div button{
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+}
+
+section div button p{
+    color: var(--blue);
+}
+
+section div p{
+    color: var(--grey-blue);
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+}
+
+#ou{
+    margin:1.5rem;
+}

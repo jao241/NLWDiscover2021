@@ -5,6 +5,8 @@
     border: none;
     box-sizing: border-box;
 }
+ 
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');*/
 
 html{
     /* Cores no geral */
@@ -44,4 +46,20 @@ body{
     clip-path: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
+}
+
+h2, button{
+    font-family: Poppins, sans-serif;
+    margin-bottom: 1rem; 
+}
+
+.formatacao_botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+    padding: .5rem;
+    margin: 5px auto;
+    border-radius: 8px;
+    cursor:pointer;
 }
