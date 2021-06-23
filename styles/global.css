@@ -10,6 +10,7 @@
 
 html{
     /* Cores no geral */
+    --linear: #5498FF;
     --black: #0D114F;
     --white: #FAFAFA;
     --red: #E83F5B;
@@ -32,6 +33,7 @@ html{
 }
 
 body{
+    display: flex;
     background-color: var(--background);
     height: 100vh;
 }

@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 11.4rem 1fr;
     grid-template-areas: 
     'header header'
@@ -17,14 +17,16 @@ header{
 #bg{
     grid-area: left;
     background: url('../assets/Ilustração.svg') no-repeat top/contain;
-    position: relative;
-    width: 756.64px;
-    left: -90px;
-    top: -4rem;
+    background-position-x: -8rem;
+    background-position-y: -1.9rem;
 }
 
 main{
     grid-area: right;
+}
+
+section{
+    margin-top: 4rem;
 }
 
 .flex-direction-main-items{
@@ -33,7 +35,7 @@ main{
     align-items: center;
     padding: 1rem;
     text-align: center;
-    width: 50%;
+    width: 21rem;
 }
 
 section input{
@@ -43,7 +45,7 @@ section input{
     font-family: 'Open Sans', sans-serif;
 }
 
-#room-id{
+#room-id, #room-pass{
     margin-bottom: 1rem;
 }
 
@@ -73,4 +75,40 @@ section div p{
 
 #ou{
     margin:1.5rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#ou div:nth-child(2){
+    margin: 0 .8rem;
+}
+
+#ou div:nth-child(1),
+#ou div:nth-child(3){
+    background-color: var(--grey-blue);
+    width: 100%;
+    height: 1px;
+}
+
+/* Estilizando as bolas */
+
+.bola{
+    width: 35rem;
+    height: 30rem;
+    background-color: var(--blue);
+    clip-path: circle();
+    position: fixed;
+    opacity: .1;
+}
+
+.bola.superior{
+    top: -16rem;
+    right: -18rem;
+}
+
+.bola.inferior{
+    bottom: -17rem;
+    right: 4rem;
+    width: 10rem;
 }
