@@ -10,13 +10,11 @@ body{
 
 header{
     grid-area: header;
-    margin-left: 8rem;
-    margin-top: 2rem;
 }
 
 #bg{
     grid-area: left;
-    background: url('../assets/Ilustração.svg') no-repeat top/contain;
+    background: url('../assets/Ilustracao.svg') no-repeat top/contain;
     background-position-x: -8rem;
     background-position-y: -1.9rem;
 }
