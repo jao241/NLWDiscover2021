@@ -18,6 +18,7 @@ html{
     --blue: #3485FF;
     --background: #FBFCFF;
     --overlay: #040911;
+    --overlay-light: rgba(4,9,17,.9);
     --icons-details: #A5B0C1;
 
     /* Tons de cinza */
