@@ -17,16 +17,49 @@
     <title>Perguntas e respostas - rocket.q</title>
 </head>
 <body>
-    <header>
-        <a href="home.html">
-            <img src="./assets/Logo.svg" alt="Logo da rocket.q">
-        </a>
-        <section class="botoes">
-            <button class="formatacao_botao" id= "botao_branco">#323243 <img src="./assets/copy-hash.svg" alt="Copiar hash"></button>
-            <a href="./create-pass.html">
-                <button class="formatacao_botao" id= "botao_azul"><img src="./assets/create-room-white.svg" alt="Criar sala"> Criar sala</button>
-            </a>
-        </section>
-    </header>
+    <section id="all">
+        <header>
+            <section id="content">
+                <a href="home.html">
+                    <img src="./assets/Logo.svg" alt="Logo da rocket.q">
+                </a>
+            </section>
+            <section class="botoes">
+                <button class="formatacao_botao" id= "botao_branco">#323243 <img src="./assets/copy-hash.svg" alt="Copiar hash"></button>
+                <a href="./create-pass.html">
+                    <button class="formatacao_botao" id= "botao_azul"><img src="./assets/create-room-white.svg" alt="Criar sala"> Criar sala</button>
+                </a>
+            </section>
+        </header>
+        <main>
+            <section id="question-form">
+                <h2>Faça sua pergunta</h2>
+                <form action="">
+                    <label class="sr-only" for-id="question">O que você quer perguntar?</label>
+                    <textarea name="question" id="question" placeholder="O que você quer perguntar?"></textarea>
+    
+                    <footer>
+                        <p><img src="./assets/iconSeguro.svg" alt="Segurança"> Esta pergunta é anônima</p>
+                        <button class="formatacao_botao" id="botao_enviar">Enviar</button>
+                    </footer>
+                    
+                </form>
+            </section>
+
+            <section id="questions">
+                <h2 class="sr-only">Perguntas da comunidade</h2>
+                <div class="question">
+                    <section class="content">
+                        <img src="./assets/Avatar.svg" alt="Avatar">
+                        <p>Qual a diferença entre const, var e let no JavaScript?</p>
+                    </section>
+                    <section class="action">
+                        <p><img src="./assets/check 1.svg" alt="Marcar como lida"><a href="">Marcar como lida</a></p>
+                        <p><img src="./assets/trash01.svg" alt="Excluir"><a href="">Excluir</a></p>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </section>
 </body>
 </html>
