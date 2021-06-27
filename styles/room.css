@@ -66,6 +66,7 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+
 #question-form form footer > button{
     width: 5rem;
     margin: .4rem 1.1rem;
@@ -77,6 +78,7 @@ h2{
     color: var(--grey-blue);
     font-family: 'Open Sans', sans-serif;
 }
+
 #question-form form footer > p{
     font-family: Poppins, sans-serif;
     color: var(--icons-details);
@@ -106,16 +108,26 @@ h2{
     display: flex;
     align-items: flex-start;
     padding-left: 1rem;
+    width: 69%;
+    word-break: break-word;
+    overflow: auto;
 }
 
-#questions .question .content > img{
-    width: 3.25rem;
-    padding-top: 1rem;
-    margin-right: .5rem;
+#questions .question .content .background{
+    background-color: var(--blue);
+    clip-path: circle();
+    margin-top: 1rem;
 }
+
+#questions .question .content .background > img{
+    padding: .875rem;
+    margin-top: 0.15rem;
+}
+
 #questions .question .content > p{    
     padding-top: 2rem;
     font-family: 'Open Sans', sans-serif;
+    padding-left: .4rem;
 }
 
 #questions .question .action{
@@ -126,7 +138,7 @@ h2{
 }
 
 #questions .question .action > p > img{
-    width: .875rem;
+    width: 1.29rem;
     margin-right: .5rem;
 }
 
@@ -143,4 +155,14 @@ h2{
 
 #questions .question .action > p > a{
     color: var(--grey);
+}
+
+/* Quando clicar na opção 'Marcar como lida' */
+
+#questions .question.read{
+    background-color: var(--grey-opacity);
+}
+
+#questions .question.read .content .background{
+    background-color: var(--grey-blue);
 }

@@ -25,6 +25,7 @@ html{
     --grey-blue: #A1B2CD;
     --grey-mediun: #D3D9E2;
     --grey-light: #E5EAF1;
+    --grey-opacity: #eaecf1;
 
     /* Cores para alteração nos botões */
     --blue-hover: #5699FF;
@@ -46,6 +47,7 @@ header{
 a{
     text-decoration: none;
 }
+
 .sr-only{
     position: absolute;
     height: 1px;
