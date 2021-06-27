@@ -36,11 +36,10 @@ section{
     width: 21rem;
 }
 
-section input{
-    padding: .8rem;
+section input{    
     border:2px solid var(--grey-blue);
-    border-radius: 8px;
     font-family: 'Open Sans', sans-serif;
+    outline: none;
 }
 
 #room-id, #room-pass{
