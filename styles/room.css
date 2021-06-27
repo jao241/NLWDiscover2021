@@ -175,6 +175,11 @@ h2{
 
 /* Modal */
 
+#Exclusao.ativo{
+    visibility: visible;
+    opacity: 1;
+}
+
 #Exclusao{  
     background-color: var(--overlay-light);
     position: fixed;
@@ -185,6 +190,9 @@ h2{
     flex-direction: column;
     align-items: center;
     left: 0;
+
+    visibility: hidden;
+    opacity: 0;
 }
 
 #Exclusao #content{
