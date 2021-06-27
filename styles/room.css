@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    width: 90%;
+    width: 100%;
 }
 
 header{
@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-left: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 h2{
@@ -99,6 +99,7 @@ h2{
     display: flex;
     justify-content: space-between;
     height: 7.8rem;
+    margin-bottom: .5rem;
 }
 
 #questions .question .content{
@@ -113,7 +114,8 @@ h2{
     margin-right: .5rem;
 }
 #questions .question .content > p{    
-padding-top: 2rem;
+    padding-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #questions .question .action{
