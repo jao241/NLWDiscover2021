@@ -235,6 +235,7 @@ h2{
 #Exclusao #content form #botoes > button{
     background-color: var(--red);
     color: var(--white);
+    font-size: 1rem;
 }
 
 #Exclusao #content form #botoes > a, #Exclusao #content form #botoes > button{
